@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #F1ECC3;
+  line-height: 1.5rem;
+}
+/* Section navbar-calculator */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  border-bottom: solid #7E9E8D;
+  border-width: 3px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.nav-item {
+  display: inline-block;
+  padding: 0px 3px;
+}
+.navbar-elements {
+  display: inline-flex;
+  margin-left: 10px;
+  margin-right: 5%;
+}
+.navbar-links {
+  margin-left: 30px;
+}
+.btns {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.my-stats {
+  display: inline-flex;
+}
+.my-stats h3{
+    color: #5E887E;
+}
+.height-top-stat {
+  background-color: #fff;
+  height: 30px;
+  width: 60px;
+  margin-top: 15px;
+  margin-left: 1.5rem;
+}
+.weight-top-stat {
+  background-color: #fff;
+  height: 30px;
+  width: 60px;
+  margin-top: 15px;
+  margin-left: 1.5rem;
+}
+.top-stats {
+  margin-left: 1.5rem;
+  margin-top: 20px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #5E887E;
+}
+a:hover {
+  color: #C9D8B6;
+}
+
+.logo {
+  height: 100px;
+}
+
+/* Section BMI Calculator */
+.BMI-Calculator-box {
+
+
+  height: 500px;
+  left: 55%;
+  text-align: center;
+  border-left: solid 3px #7E9E8D;
+  position: relative;
+  display:inline-block;
+  padding-left: 3%;
+}
+ .male-btn {
+  display: inline-block;
+}
+.male-button{
+  width: 60px;
+}
+.female-btn {
+ display: inline-block;
+}
+.height-selector{
+  padding-top: 2rem;
+}
+.weight-selector{
+  padding-top: 2rem;
+}
+#height {
+  display: block;
+   width: 400px;
+}
+#weight {
+  display: block;
+  width: 400px;
+}
+.calculate-btn{
+  padding-top: 1.5rem;
+}
+.select-gender {
+
+}
+/* Section BMI Diagram */
+.section-result-diagram{
+  position: relative;
+  display: inline-block;
+  bottom: 480px;
+  margin-left: 11%;
+
+}
+.gender-box img {
+  width: 120px;
+  height: 350px;
+}
+.heart-result {
+
+}
+.heart-result .heart-icon{
+  margin-left: 1rem;
+  font-size: 5rem;
+}
+.heart-result .message-result {
+  display: inline-block;
+  }
+.message-result {
+  margin-top: 10px;
+}
+.message-result h3 {
+  text-align: center;
+  padding-left: 130px;
+  position: relative;
+  left: 40px;
+  bottom: 20px;
+}
+/* Section Footer */
+.footer-container{
+  width: 100%;
+  height: 150px;
+}

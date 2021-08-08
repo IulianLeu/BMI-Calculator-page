@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Scripts -->
+  <script type="text/javascript" src="main.js"></script>
+  <!-- Font Awesome link -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <meta charset="utf-8">
+  <title>Portfoliu Personal</title>
+</head>
+
+<body>
+  <section id="navbar-calculator">
+    <div class="navbar">
+      <a href="#" class="navbar-brand"><img class="logo" src="images/BMI-Calculator-logo.png" alt=""></a>
+      <div class="my-stats">
+        <h3>My Stats:</h3>
+        <div class="height-top-stat">
+
+        </div>
+        <p class="top-stats">cm</p>
+        <div class="weight-top-stat">
+
+        </div>
+        <p class="top-stats">kg</p>
+      </div>
+      <div class="navbar-elements">
+
+
+        <ul class="navbar-links">
+          <li class="nav-item"><a href="#">｜BMI Calculator｜</a></li>
+          <li class="nav-item"><a href="#">Statistic｜</a></li>
+
+        </ul>
+        <div class="btns">
+          <a href="#">Registration｜</a>
+          <a href="#">Login</a>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+  <section id="BMI-calculator">
+    <div class="BMI-Calculator-box">
+
+      <h3 class="select-gender">Select your gender</h3>
+      <div class="btns-gender">
+        <div class="male-btn">
+          <button type="button" onclick="genderImgChangeBtnMale()" value="Change Image" class="male-button"><a href="#">Male</a></button>
+        </div>
+        <div class="female-btn">
+          <button type="button" onclick="genderImgChangeBtnFemale()" value="Change Image" class="female-button"><a href="#">Female</a></button>
+        </div>
+      </div>
+      <div class="height-selector">
+        <label for="height">Add your height in the section bellow (137cm - 203cm)</label>
+        <input type="number" id="height" name="height" min="137" max="203">
+      </div>
+      <div class="weight-selector">
+        <label for="weight">Add your weight in the section bellow (41kg - 200kg)</label>
+        <input type="number" id="weight" name="weight" min="41" max="200">
+      </div>
+      <div class="calculate-btn">
+        <button type="button" class="calculate-button"><a href="#">Calculate</a></button>
+      </div>
+      <div class="result-bmi">
+
+      </div>
+    </div>
+  </section>
+  <section id="BMI-Diagram">
+    <div class="section-result-diagram">
+
+      <div class="gender-box">
+        <img src="images/male-shadow.png" id="genderImgChange" alt="">
+
+      </div>
+      <div class="diagram">
+
+      </div>
+      <div class="heart-result">
+        <i class="heart-icon fas fa-heartbeat"></i>
+        <div class="message-result">
+          <h3>Just a message for result</h3>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="footer">
+   <div class="footer-container">
+
+   </div>
+  </section>
+
+</body>
+
+</html>
